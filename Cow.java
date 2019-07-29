@@ -1,7 +1,9 @@
-
 public class Cow extends Pet{
+	@Override
 	public void voice() {
-		System.out.println("ß êîğîâà- Ìóóó-Ìóóó");
+		super.voice();
+		System.out.println("Ğ¯ ĞºĞ¾Ñ€Ğ¾Ğ²Ğ°- ĞœÑƒÑƒÑƒ-ĞœÑƒÑƒÑƒ");
 	}
 	}
+
 
