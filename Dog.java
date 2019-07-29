@@ -1,6 +1,8 @@
-
 public class Dog extends Pet{
+	@Override
 public void voice() {
-	System.out.println("ί οερ- Γΰσσσ-Γΰσσσ");
+	super.voice();
+	System.out.println("Π― ΠΏΠµΡ- Π“Π°ΡƒΡƒΡƒ-Π“Π°ΡƒΡƒΡƒ");
 }
 }
+
